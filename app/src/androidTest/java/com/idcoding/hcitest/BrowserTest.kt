@@ -14,6 +14,12 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
+/*
+*  By Adya Bukhari
+*  29 February, 2020
+*  Email : Bukhariadbuk@gmail.com
+*/
+
 @RunWith(AndroidJUnit4::class)
 class BrowserTest{
     @JvmField

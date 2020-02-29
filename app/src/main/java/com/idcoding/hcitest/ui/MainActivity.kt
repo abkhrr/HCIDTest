@@ -13,8 +13,13 @@ import com.idcoding.hcitest.ui.adapter.MainPageAdapter
 import com.idcoding.hcitest.ui.browser.BrowserApp
 import com.idcoding.hcitest.utils.GridHelper
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
 import com.idcoding.hcitest.data.ViewHelper as ViewHelper1
+
+/*
+*  By Adya Bukhari
+*  29 February, 2020
+*  Email : Bukhariadbuk@gmail.com
+*/
 
 class MainActivity : AppCompatActivity(), ViewHelper1 {
 

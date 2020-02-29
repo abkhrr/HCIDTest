@@ -10,6 +10,12 @@ import android.webkit.WebViewClient
 import com.idcoding.hcitest.R
 import kotlinx.android.synthetic.main.app_browser.*
 
+/*
+*  By Adya Bukhari
+*  29 February, 2020
+*  Email : Bukhariadbuk@gmail.com
+*/
+
 class BrowserApp : AppCompatActivity() {
 
     @SuppressLint("SetJavaScriptEnabled")

@@ -11,6 +11,12 @@ import com.idcoding.hcitest.data.model.ItemsModel
 import kotlinx.android.synthetic.main.items_grid.view.*
 import kotlinx.android.synthetic.main.items_list.view.*
 
+/*
+*  By Adya Bukhari
+*  29 February, 2020
+*  Email : Bukhariadbuk@gmail.com
+*/
+
 class MainPageAdapter(private val context: Context, private val listItem: List<ItemsModel>, private val clickListener: (ItemsModel) -> Unit)
     : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
@@ -21,9 +27,9 @@ class MainPageAdapter(private val context: Context, private val listItem: List<I
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        if (viewType === GRID_TYPE) {
+        if (viewType == GRID_TYPE) {
             return GridViewHolder(inflater, parent)
-        } else if (viewType === LIST_TYPE) {
+        } else if (viewType == LIST_TYPE) {
             return ListViewHolder(inflater, parent)
         }
         return ListViewHolder(inflater, parent)
