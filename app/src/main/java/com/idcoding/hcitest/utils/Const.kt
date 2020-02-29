@@ -7,4 +7,6 @@ package com.idcoding.hcitest.utils
 */
 
 object Const {
+
+    const val TEST_URL = "https://www.homecredit.co.id/Konsumen/Produk/Kredit-Handphone"
 }
